@@ -1,0 +1,633 @@
+body{
+    background-image: url(img/bg.jpg);
+    animation: transitionin 0.5s ease-in-out 1;
+}
+
+@keyframes transitionin {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.menu-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1{
+    background-color: rgba(63, 63, 63, 0.699);
+    margin: 50px 50px;
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+}
+
+.flex1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.flex1-text{
+    padding-left: 30px;
+}
+
+.flex1-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.flex1-contents{
+    font-size: small;
+    text-align: justify;
+    margin: 10px 0px 0px 0px;
+    padding: 10px;
+    border-radius: 0px 0px 0px 20px;
+    color: rgb(63, 63, 63);
+    background-color: rgba(255, 255, 255, 0.603);
+}
+
+.flex1-img{
+    transition: all 2s ease-in-out;
+}
+
+.flex1-img:hover{
+    width: 210%;
+}
+
+h1{
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.portfolio-img{
+    border-radius: 10px;
+}
+
+#portfolio{
+    margin: 50px 50px;
+}
+
+#contact{
+    margin: 200px 50px;
+}
+
+.about{
+    margin: 100px;
+}
+
+.list-group-item:hover{
+    background-color: rgba(63, 63, 63, 0.548);
+    color: white;
+}
+
+footer{
+    background-color: rgb(32, 32, 32);
+    padding: 10px;
+    text-align: center;
+    color: rgb(168, 168, 168); 
+    font-size: small;
+}
+
+.footer-head{
+    color: white;
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+.footer-flex-link{
+    color: rgb(168, 168, 168);
+    text-decoration: none;
+}
+
+.footer-flex-link:hover{
+    color: white;
+}
+
+.footer-form{
+    background-color: white;
+    padding: 3px 10px;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+}
+
+.form-img{
+    width: 20px;
+}
+
+.form-btn{
+    background-color: transparent;
+    border: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.form-btn:hover{
+    transform: scale(1.1);
+}
+
+.form-input{
+    background-color: transparent;
+    outline: 0;
+    border: none;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: rgb(63, 63, 63);
+}
+
+.footer-a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 5px;
+}
+
+@media screen and (max-width: 400px){
+    body{
+        background-image: url(img/bg.jpg);
+        animation: transitionin 0.5s ease-in-out 1;
+    }
+    
+    @keyframes transitionin {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+    
+        to {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+    
+    .menu-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .section1{
+        background-color: rgba(63, 63, 63, 0.699);
+        margin: 50px 10px;
+        padding: 10px;
+        color: white;
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    .flex1{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 2px;
+    }
+    
+    .flex1-title{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .flex1-contents{
+        font-size: small;
+        text-align: justify;
+        margin: 10px 0px 0px 0px;
+        padding: 10px;
+        border-radius: 10px;
+        color: rgb(63, 63, 63);
+        background-color: rgba(255, 255, 255, 0.603);
+    }
+    
+    .flex1-img{
+        display: none;
+    }
+    
+    h1{
+        font-weight: bold;
+        text-align: center;
+        border: 1px solid black;
+    }
+    
+    .portfolio-img{
+        border-radius: 10px;
+    }
+    
+    #portfolio{
+        margin: 50px 10px;
+    }
+    
+    #contact{
+        margin: 200px 10px;
+    }
+    
+    .about{
+        margin: 10px;
+    }
+    
+    .list-group-item:hover{
+        background-color: rgba(63, 63, 63, 0.548);
+        color: white;
+    }
+    
+    footer{
+        background-color: rgb(32, 32, 32);
+        padding: 10px;
+        text-align: center;
+        color: rgb(168, 168, 168); 
+        font-size: small;
+    }
+    
+    .footer-head{
+        color: white;
+    }
+    
+    .footer-flex{
+        display: block;
+        padding: 20px 100px;
+    }
+    
+    .footer-flex-link{
+        color: rgb(168, 168, 168);
+        text-decoration: none;
+    }
+    
+    .footer-flex-link:hover{
+        color: white;
+    }
+    
+    .footer-form{
+        background-color: white;
+        padding: 3px 10px;
+        border-radius: 20px;
+        width: 130%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .form-img{
+        width: 20px;
+    }
+    
+    .form-btn{
+        background-color: transparent;
+        border: none;
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .form-btn:hover{
+        transform: scale(1.1);
+    }
+    
+    .form-input{
+        background-color: transparent;
+        outline: 0;
+        border: none;
+    }
+    
+    .footer-link{
+        text-decoration: none;
+        color: rgb(63, 63, 63);
+    }
+    
+    .footer-a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        margin: 5px;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width: 992px){
+    body{
+        background-image: url(img/bg.jpg);
+        animation: transitionin 0.5s ease-in-out 1;
+    }
+    
+    @keyframes transitionin {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+    
+        to {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+    
+    .menu-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .section1{
+        background-color: rgba(63, 63, 63, 0.699);
+        margin: 50px 10px;
+        padding: 10px;
+        color: white;
+        border-radius: 20px;
+    }
+    
+    .flex1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin: 10px 0px;
+    }
+    
+    .flex1-title{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .flex1-contents{
+        font-size: small;
+        text-align: justify;
+        margin: 10px 0px 0px 0px;
+        padding: 10px;
+        border-radius: 10px;
+        color: rgb(63, 63, 63);
+        background-color: rgba(255, 255, 255, 0.603);
+    }
+    
+    .flex1-img{
+        
+        transition: all 2s ease-in-out;
+        order: 2;
+    }
+    
+    .flex1-img:hover{
+        width: 210%;
+    }
+    
+    h1{
+        font-weight: bold;
+        text-align: center;
+        border: 1px solid black;
+    }
+    
+    .portfolio-img{
+        border-radius: 10px;
+    }
+    
+    #portfolio{
+        margin: 50px 10px;
+    }
+    
+    #contact{
+        margin: 200px 10px;
+    }
+    
+    .about{
+        margin: 10px;
+    }
+    
+    .list-group-item:hover{
+        background-color: rgba(63, 63, 63, 0.548);
+        color: white;
+    }
+    
+    
+
+    footer{
+        background-color: rgb(32, 32, 32);
+        padding: 10px;
+        text-align: center;
+        color: rgb(168, 168, 168); 
+        font-size: small;
+    }
+    
+    .footer-head{
+        color: white;
+    }
+    
+    .footer-flex{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 10px;
+    }
+    
+    .footer-flex-link{
+        color: rgb(168, 168, 168);
+        text-decoration: none;
+    }
+    
+    .footer-flex-link:hover{
+        color: white;
+    }
+    
+    .footer-form{
+        background-color: white;
+        padding: 3px 10px;
+        border-radius: 20px;
+        width: 100%;
+        display: flex;
+    }
+    
+    .form-img{
+        width: 20px;
+    }
+    
+    .form-btn{
+        background-color: transparent;
+        border: none;
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .form-btn:hover{
+        transform: scale(1.1);
+    }
+    
+    .form-input{
+        background-color: transparent;
+        outline: 0;
+        border: none;
+    }
+    
+    .footer-link{
+        text-decoration: none;
+        color: rgb(63, 63, 63);
+    }
+    
+    .footer-a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        margin: 5px;
+    }
+}
+
+@media screen and (min-width:401px) and (max-width: 600px){
+    body{
+        background-image: url(img/bg.jpg);
+        animation: transitionin 0.5s ease-in-out 1;
+    }
+    
+    @keyframes transitionin {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+    
+        to {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+    
+    .menu-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .section1{
+        background-color: rgba(63, 63, 63, 0.699);
+        margin: 50px 10px;
+        padding: 10px;
+        color: white;
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    .flex1{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 2px;
+    }
+    
+    .flex1-title{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .flex1-contents{
+        font-size: small;
+        text-align: justify;
+        margin: 10px 0px 0px 0px;
+        padding: 10px;
+        border-radius: 10px;
+        color: rgb(63, 63, 63);
+        background-color: rgba(255, 255, 255, 0.603);
+    }
+    
+    .flex1-img{
+        display: none;
+    }
+    
+    h1{
+        font-weight: bold;
+        text-align: center;
+        border: 1px solid black;
+    }
+    
+    .portfolio-img{
+        border-radius: 10px;
+    }
+    
+    #portfolio{
+        margin: 50px 10px;
+    }
+    
+    #contact{
+        margin: 200px 10px;
+    }
+    
+    .about{
+        margin: 10px;
+    }
+    
+    .list-group-item:hover{
+        background-color: rgba(63, 63, 63, 0.548);
+        color: white;
+    }
+    
+    footer{
+        background-color: rgb(32, 32, 32);
+        padding: 10px;
+        text-align: center;
+        color: rgb(168, 168, 168); 
+        font-size: small;
+    }
+    
+    .footer-head{
+        color: white;
+    }
+    
+    .footer-flex{
+        display: block;
+        justify-content: space-between;
+        padding: 20px 100px;
+    }
+    
+    .footer-flex-link{
+        color: rgb(168, 168, 168);
+        text-decoration: none;
+    }
+    
+    .footer-flex-link:hover{
+        color: white;
+    }
+    
+    .footer-form{
+        background-color: white;
+        padding: 3px 10px;
+        border-radius: 20px;
+        width: 100%;
+        display: flex;
+    }
+    
+    .form-img{
+        width: 20px;
+    }
+    
+    .form-btn{
+        background-color: transparent;
+        border: none;
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .form-btn:hover{
+        transform: scale(1.1);
+    }
+    
+    .form-input{
+        background-color: transparent;
+        outline: 0;
+        border: none;
+    }
+    
+    .footer-link{
+        text-decoration: none;
+        color: rgb(63, 63, 63);
+    }
+    
+    .footer-a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        margin: 5px;
+    }
+}

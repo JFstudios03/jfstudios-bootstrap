@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+  <nav class="navbar navbar-expand-lg shadow-sm" id="nav" style="background-color: rgb(32, 32, 32); padding: 2px;" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png" alt="logo" width="100">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          <a class="nav-link" href="#about">About us</a>
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+          <a class="nav-link" href="#contact">Contact</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu
+            </a>
+            <ul class="dropdown-menu">
+              <li class="menu-list"><a class="dropdown-item" href="#">Favorites</a></li>
+              <li class="menu-list"><a class="dropdown-item" href="#">Downloads</a></li>
+              <li class="menu-list"><a class="dropdown-item" href="#">Following</a></li>
+              <li class="menu-list"><a class="dropdown-item" href="#">My Collections</a></li>
+              <li class="menu-list"><hr class="dropdown-divider"></li>
+              <li class="menu-list"><a class="dropdown-item" href="#">Devices</a></li>
+              <li class="menu-list"><a class="dropdown-item" href="#">My Subscription</a></li>
+              <li class="menu-list"><a class="dropdown-item" href="#">FAQ</a></li>
+              <li class="menu-list"><hr class="dropdown-divider"></li>
+              <li class="menu-list"><a class="dropdown-item" href="#">Sign-up</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <section class="section1 shadow-sm" id="home">
+    <div class="flex1">
+      <div class="flex1-text">
+        <span class="flex1-title">JFstudios: Where Moments Click and Dreams Develop</span><br>
+        <span><em>- Inspiring Insights, Tips, and Stories Behind the Lens -</em></span>
+        <p class="flex1-contents">
+          Welcome to JFstudios – Your Gateway to Visual Adventures!
+
+          At JFstudios, we believe that life is a series of moments waiting to be captured and cherished. Our lens is your window to a world where every click freezes time, preserving emotions, stories, and dreams.
+          
+          Immerse yourself in the art of photography as we journey through landscapes, emotions, and the beauty of everyday life. Whether you're an aspiring photographer or simply an admirer of the visual arts, JFstudios is here to inspire, educate, and celebrate the magic of photography.
+          
+          Join our community of passionate shutterbugs, explore expert tips and tricks, and discover the stories behind stunning images. Let your creativity run wild, and let's embark on a colorful journey together.
+          
+          Capture. Create. Inspire. This is JFstudios.
+        </p>
+      </div>
+      <img src="img/camera.png" alt="Camera Icon" width="200%" class="flex1-img">
+    </div>
+
+    <div class="flex1" style="margin-bottom: 20px;">
+      <button type="button" class="btn btn-outline-light">Sign-up</button>
+      <button type="button" class="btn btn-outline-light">Sign-in</button>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h1>ABOUT US</h1>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            INTRODUCTION
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <h4 id="list-item-1">INTRODUCTION</h4>
+            <p>
+              Discover the World of Joyful Moments with JFstudios!<br>
+              Greetings, and welcome to JFstudios!<br><br>
+              In a world where every instant is a unique story waiting to be told, we invite you to embark on a journey with us. I am Jesuferanmi Agboola, the visionary force behind JFstudios. As a budding Junior Frontend Web Developer and a dedicated 300-level student at the esteemed University of Ilorin, I'm thrilled to share our story with you.
+
+              At the heart of JFstudios lies a deep-seated belief: every photograph carries the power to tell stories and unveil the creative essence within us. My personal motivation stems from the captivating ability of images to convey narratives that touch our hearts and reveal the hidden depths of our creativity.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            MOTIVATION
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <h4 id="list-item-2">MOTIVATION</h4>
+            <p>
+              During my exploration of the captivating realm of web development, I realized that technology can be harnessed not only to bridge gaps but also to encapsulate the moments that define us. This realization gave birth to JFstudios, a digital haven designed to encapsulate the beauty of fleeting instances, the emotions woven into laughter, and the simple yet profound treasures of everyday life.
+
+              Our dedication to crafting an immersive online sanctuary where these moments thrive led us to meticulously design a user-friendly interface that ensures your experience is as effortless as it is enchanting. Here at JFstudios, we strive to remain at the forefront of web development trends, incorporating innovative features that elevate your interaction with our platform.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            AIM
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <h4 id="list-item-3">AIM</h4>
+            <p>
+              However, beyond the algorithms and code, JFstudios is a celebration of the human connection. It's about sharing stories, preserving memories, and amplifying the universal language of joy. Our commitment to cultivating a platform that resonates deeply with your soul remains our driving force.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            CONCLUSION
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <h4 id="list-item-4">CONCLUSION</h4>
+            <p>
+              We invite you to be part of this exciting odyssey. Let's paint the canvas of life with the vibrant hues of joy and creativity, one pixel at a time.<br><br>
+
+              With Joyful Anticipation,<br>
+              Jesuferanmi Agboola<br>
+              Founder, JFstudios
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="portfolio">
+    <h1>PORTFOLIO</h1>
+    <div id="carouselExampleAutoplaying" class="carousel slide shadow-lg" data-bs-ride="carousel" style="margin: 5px; transform: scale(0.7);">
+      <div class="carousel-inner" style="border-radius: 20px;">
+        <div class="carousel-item active">
+          <img src="img/pic-1.jpg" class="d-block" alt="..." width="100%">
+        </div>
+        <div class="carousel-item">
+          <img src="img/pic-2.jpg" class="d-block" alt="..." width="100%">
+        </div>
+        <div class="carousel-item">
+          <img src="img/pic-3.jpg" class="d-block" alt="..." width="100%">
+        </div>
+        <div class="carousel-item">
+          <img src="img/pic-4.jpg" class="d-block" alt="..." width="100%">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Click to view more images
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="container text-center">
+              <div class="row">
+
+                <div class="col">
+                  <div id="carouselExampleAutoplaying" class="carousel slide shadow-lg" data-bs-ride="carousel" style="margin: 5px;">
+                    <div class="carousel-inner" style="border-radius: 20px;">
+                      <div class="carousel-item active">
+                        <img src="img/WFS_5474.JPG" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/WFS_5477.JPG" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/WFS_5470.jpg" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/FERANMI 3.png" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/FERANMI 4.png" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/FERANMI 6.png" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/FERANMI 7.png" alt="" width="100%" class="portfolio-img">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div id="carouselExampleAutoplaying" class="carousel slide shadow-lg" data-bs-ride="carousel" style="margin: 5px;">
+                    <div class="carousel-inner" style="border-radius: 20px;">
+                      <div class="carousel-item active">
+                        <img src="img/WFS_5477.JPG" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/WFS_5470.jpg" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/WFS_5474.JPG" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/FERANMI 4.png" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/FERANMI 6.png" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/FERANMI 7.png" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/FERANMI 3.png" alt="" width="100%" class="portfolio-img">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="row" style="margin-top: 20px;">
+
+                <div class="col">
+                  <div id="carouselExampleAutoplaying" class="carousel slide shadow-lg" data-bs-ride="carousel" style="margin: 5px;">
+                    <div class="carousel-inner" style="border-radius: 20px;">
+                      <div class="carousel-item active">
+                        <img src="img/FERANMI 4.png" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/FERANMI 6.png" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/FERANMI 7.png" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/FERANMI 3.png" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/WFS_5470.jpg" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/WFS_5477.JPG" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/WFS_5474.JPG" alt="" width="100%" class="portfolio-img">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div id="carouselExampleAutoplaying" class="carousel slide shadow-lg" data-bs-ride="carousel" style="margin: 5px;">
+                    <div class="carousel-inner" style="border-radius: 20px;">
+                      <div class="carousel-item active">
+                        <img src="img/FERANMI 6.png" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/FERANMI 7.png" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/FERANMI 3.png" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/FERANMI 4.png" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/WFS_5477.JPG" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/WFS_5474.JPG" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/WFS_5470.jpg" alt="" width="100%" class="portfolio-img">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div id="carouselExampleAutoplaying" class="carousel slide shadow-lg" data-bs-ride="carousel" style="margin: 5px;">
+                    <div class="carousel-inner" style="border-radius: 20px;">
+                      <div class="carousel-item active">
+                        <img src="img/FERANMI 7.png" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/FERANMI 3.png" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/FERANMI 4.png" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/FERANMI 6.png" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/WFS_5474.JPG" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/WFS_5470.jpg" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/WFS_5477.JPG" alt="" width="100%" class="portfolio-img">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>                  
+                </div>
+
+              </div>
+              <div class="row" style="margin-top: 20px;">
+
+                <div class="col">
+                  <div id="carouselExampleAutoplaying" class="carousel slide shadow-lg" data-bs-ride="carousel" style="margin: 5px;">
+                    <div class="carousel-inner" style="border-radius: 20px;">
+                      <div class="carousel-item active">
+                        <img src="img/WFS_5474.JPG" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/WFS_5470.jpg" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/WFS_5477.JPG" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/FERANMI 6.png" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/FERANMI 4.png" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/FERANMI 3.png" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/FERANMI 7.png" alt="" width="100%" class="portfolio-img">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>                  
+                </div>
+
+                <div class="col">
+                  <div id="carouselExampleAutoplaying" class="carousel slide shadow-lg" data-bs-ride="carousel" style="margin: 5px;">
+                    <div class="carousel-inner" style="border-radius: 20px;">
+                      <div class="carousel-item active">
+                        <img src="img/WFS_5470.jpg" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/WFS_5477.JPG" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/WFS_5474.JPG" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/FERANMI 4.png" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/FERANMI 3.png" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/FERANMI 7.png" alt="" width="100%" class="portfolio-img">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/FERANMI 6.png" alt="" width="100%" class="portfolio-img">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>                
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="contact">
+    <h1>CONTACT</h1>
+    <form class="row g-3" style="margin-top: 30px;">
+      <div class="col-md-6">
+        <label for="inputFname4" class="form-label">First name</label>
+        <input type="text" class="form-control" id="inputEmail4">
+      </div>
+      <div class="col-md-6">
+        <label for="inputLname4" class="form-label">Last name</label>
+        <input type="text" class="form-control" id="inputEmail4">
+      </div>
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail4">
+      </div>
+      <div class="col-md-6">
+        <label for="inputPassword4" class="form-label">Password</label>
+        <input type="password" class="form-control" id="inputPassword4">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress" class="form-label">Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+      </div>
+      <div class="col-md-6">
+        <label for="inputCity" class="form-label">City</label>
+        <input type="text" class="form-control" id="inputCity">
+      </div>
+      <div class="col-md-4">
+        <label for="inputState" class="form-label">State</label>
+        <select id="inputState" class="form-select">          
+          <option>Abia</option>
+          <option>Adamawa</option>
+          <option>Akwa Ibom</option>
+          <option>Anambra</option>
+          <option>Bauchi</option>
+          <option>Bayelsa</option>
+          <option>Benue</option>
+          <option>Borno</option>
+          <option>Cross River</option>
+          <option>Delta</option>
+          <option>Ebonyi</option>
+          <option>Edo</option>
+          <option>Ekiti</option>
+          <option>Enugu</option>
+          <option>Gombe</option>
+          <option>Imo</option>
+          <option>Jigawa</option>
+          <option>Kaduna</option>
+          <option>Kano</option>
+          <option>Katsina</option>
+          <option>Kebbi</option>
+          <option>Kogi</option>
+          <option>Kwara</option>
+          <option>Lagos</option>
+          <option>Nasarawa</option>
+          <option>Niger</option>
+          <option>Ogun</option>
+          <option>Ondo</option>
+          <option>Osun</option>
+          <option>Oyo</option>
+          <option>Plateau</option>
+          <option>Rivers</option>
+          <option>Sokoto</option>
+          <option>Taraba</option>
+          <option>Yobe</option>
+          <option>Zamfara</option>
+          <option>FCT</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="inputZip" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="inputZip">
+      </div>
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+        <label for="floatingTextarea">Comments</label>
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Check me out
+          </label>
+        </div>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </div>
+    </form>
+  </div>
+
+  <footer>
+    <div class="footer-flex">
+      <div class="row1">
+        <br><strong class="footer-head">Copyright</strong><br><br>
+        <span>        
+          Designed and built by JFstudios.
+        </span>
+        <div style="color: white;"><span>&copy;</span> 2023</div>
+      </div>
+
+      <div class="row2">
+        <br><strong class="footer-head">Contact Information:</strong><br><br>
+        <a href="#nav" class="footer-flex-link">JFstudios</a><br>
+        <span>Kwara, Ilorin. Nigeria</span><br>
+        <span>07054009139</span><br>
+        <a href="mailto:agboolaferanmi18@gmail.com" class="footer-flex-link" target="_blank">agboolaferanmi18@gmail.com</a><br>
+      </div>
+
+      <div class="row3">
+        <br><strong class="footer-head">Navigation Links:</strong><br><br>
+        <a href="#about" class="footer-flex-link">About Us</a><br>
+        <a href="#contact" class="footer-flex-link">Contact Us</a><br>
+        <a href="#about" class="footer-flex-link">FAQ</a><br>
+        <a href="#" class="footer-flex-link">Privacy Policy</a><br>
+        <a href="#" class="footer-flex-link">Terms of Use</a><br>
+        <a href="#about" class="footer-flex-link">Services</a><br>
+        <a href="#portfolio" class="footer-flex-link">Portfolio</a><br>
+      </div>
+
+      <div class="row4">
+        <br><strong class="footer-head">Social Media Links:</strong><br><br>
+          <a href="https://www.facebook.com/jesuferanmi.agboola/" target="_blank" class="footer-flex-link">Facebook</a><br>
+          <a href="https://wa.me/+2347054009139?text=Hi, this is..." target="_blank" class="footer-flex-link">WhatsApp</a><br>
+          <a href="https://twitter.com/_jfstudios" target="_blank" class="footer-flex-link">Twitter</a><br>
+          <a href="https://github.com/JFstudios03" target="_blank" class="footer-flex-link">GitHub</a>
+      </div>
+
+      <div class="row5">
+        <br><strong class="footer-head">Newsletter Signup:</strong><br><br>
+        <form action="" method="post" class="footer-form">
+          <input type="email" name="email" id="" placeholder="Email Address" class="form-input">
+          <button class="form-btn"><img src="img/send.png" alt="" class="form-img"></button>
+        </form>
+      </div>
+
+      
+    </div>
+    <!-- <div class="footer-a">
+      <button type="button" class="btn btn-primary text-bg-light">
+        <a href="#" class="footer-link fb">Facebook</a>
+      </button>
+      <button type="button" class="btn btn-primary text-bg-light">
+        <a href="#" class="footer-link whatsapp">WhatsApp</a>
+      </button>
+      <button type="button" class="btn btn-primary text-bg-light">
+        <a href="#" class="footer-link twitter">Twitter</a>
+      </button>
+      <button type="button" class="btn btn-primary text-bg-light">
+        <a href="#" class="footer-link email">Email</a>
+      </button>
+      <button type="button" class="btn btn-primary text-bg-light">
+        <a href="#" class="footer-link git">GitHub</a>
+      </button>
+    </div> -->
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
