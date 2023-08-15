@@ -1,2 +1,2 @@
 # jfstudios-bootstrap
- A phtography landing page
+ A photography landing page
