@@ -78,7 +78,10 @@ h1{
 }
 
 #contact{
-    margin: 200px 50px;
+    margin: 50px 50px;
+    background-color: rgba(95, 95, 95, 0.13);
+    padding: 30px;
+    border-radius: 20px;
 }
 
 .about{
@@ -88,6 +91,10 @@ h1{
 .list-group-item:hover{
     background-color: rgba(63, 63, 63, 0.548);
     color: white;
+}
+
+.col-12{
+    text-align: center;
 }
 
 footer{
@@ -184,7 +191,7 @@ footer{
     
     .section1{
         background-color: rgba(63, 63, 63, 0.699);
-        margin: 50px 10px;
+        margin: 50px 30px;
         padding: 10px;
         color: white;
         border-radius: 20px;
@@ -201,6 +208,10 @@ footer{
     .flex1-title{
         font-size: 20px;
         font-weight: bold;
+    }
+
+    .flex1-text{
+        padding-left: 0px;
     }
     
     .flex1-contents{
@@ -228,20 +239,27 @@ footer{
     }
     
     #portfolio{
-        margin: 50px 10px;
+        margin: 50px 30px;
     }
     
     #contact{
-        margin: 200px 10px;
+        margin: 200px 30px;
+        background-color: rgba(95, 95, 95, 0.13);
+        padding: 30px;
+        border-radius: 20px;
     }
     
     .about{
-        margin: 10px;
+        margin: 50px 30px;
     }
     
     .list-group-item:hover{
         background-color: rgba(63, 63, 63, 0.548);
         color: white;
+    }
+
+    .btn{
+        width: 100%;
     }
     
     footer{
@@ -340,7 +358,7 @@ footer{
     
     .section1{
         background-color: rgba(63, 63, 63, 0.699);
-        margin: 50px 10px;
+        margin: 50px 30px;
         padding: 10px;
         color: white;
         border-radius: 20px;
@@ -390,15 +408,15 @@ footer{
     }
     
     #portfolio{
-        margin: 50px 10px;
+        margin: 50px 30px;
     }
     
     #contact{
-        margin: 200px 10px;
+        margin: 50px 30px;
     }
     
     .about{
-        margin: 10px;
+        margin: 50px 30px;
     }
     
     .list-group-item:hover{
@@ -406,7 +424,9 @@ footer{
         color: white;
     }
     
-    
+    .btn{
+        width: 100%;
+    }
 
     footer{
         background-color: rgb(32, 32, 32);
@@ -503,7 +523,7 @@ footer{
     
     .section1{
         background-color: rgba(63, 63, 63, 0.699);
-        margin: 50px 10px;
+        margin: 50px 30px;
         padding: 10px;
         color: white;
         border-radius: 20px;
@@ -520,6 +540,10 @@ footer{
     .flex1-title{
         font-size: 20px;
         font-weight: bold;
+    }
+
+    .flex1-text{
+        padding-left: 0px;
     }
     
     .flex1-contents{
@@ -547,20 +571,24 @@ footer{
     }
     
     #portfolio{
-        margin: 50px 10px;
+        margin: 50px 30px;
     }
     
     #contact{
-        margin: 200px 10px;
+        margin: 50px 30px;
     }
     
     .about{
-        margin: 10px;
+        margin: 50px 30px;
     }
     
     .list-group-item:hover{
         background-color: rgba(63, 63, 63, 0.548);
         color: white;
+    }
+
+    .btn{
+        width: 100%;
     }
     
     footer{
